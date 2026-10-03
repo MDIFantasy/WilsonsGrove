@@ -58,7 +58,7 @@ function buildHeader() {
 			'<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>' +
 			'<nav class="nav" id="site-nav" aria-label="Main">' +
 				'<ul>' + items +
-					'<li class="nav-portal">' + navLink({ label: 'Homeowner portal', href: 'member_portal.html' }) + '</li>' +
+					'<li class="nav-portal">' + navLink({ label: 'Homeowner Portal', href: 'member_portal.html' }) + '</li>' +
 				'</ul>' +
 			'</nav>' +
 		'</div>';
@@ -94,7 +94,7 @@ function buildFooter() {
 					'<p><a href="mailto:wilsonsgroveboard@gmail.com">wilsonsgroveboard@gmail.com</a></p>' +
 				'</div>' +
 				'<div>' +
-					'<h2>For homeowners</h2>' +
+					'<h2>For Homeowners</h2>' +
 					'<ul>' +
 						'<li><a href="' + PORTAL_URL + '" target="_blank" rel="noopener">D.H. Bader portal</a></li>' +
 						'<li><a href="' + CELLBADGE_URL + '" target="_blank" rel="noopener">CellBadge pool registration</a></li>' +
@@ -102,7 +102,7 @@ function buildFooter() {
 					'</ul>' +
 				'</div>' +
 				'<div>' +
-					'<h2>On this site</h2>' +
+					'<h2>On This Site</h2>' +
 					'<ul>' +
 						'<li><a href="documents.html">Documents library</a></li>' +
 						'<li><a href="faq.html">FAQ</a></li>' +
