@@ -86,6 +86,9 @@ li { margin-bottom: 0.3em; }
 .btn-quiet { background: transparent; color: var(--grove); border-color: var(--grove); }
 .btn-quiet:hover { background: var(--grove); border-color: var(--grove); color: #fff; }
 .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
+@media (max-width: 44rem) {
+	.actions { justify-content: center; }
+}
 
 /* Header (built by site.js) */
 
@@ -383,6 +386,9 @@ table.hide-done tr.done { display: none; }
 .footer-legal p { margin: 0; }
 @media (max-width: 44rem) {
 	.footer-grid { grid-template-columns: 1fr; }
+	.site-footer { text-align: center; }
+	.site-footer p { max-width: none; }
+	.footer-legal { justify-content: center; }
 }
 
 @media print {
