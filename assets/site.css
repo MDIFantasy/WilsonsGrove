@@ -339,6 +339,7 @@ table.hide-done tr.done { display: none; }
 /* News item */
 
 .news-item img { border: 1px solid var(--line); border-radius: 4px; }
+.news-item .flyer { max-width: 392px; justify-self: center; }
 
 /* FAQ */
 
